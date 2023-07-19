@@ -1,0 +1,38 @@
+Inicializar proyecto
+    npm init -y
+
+Inicializar repositorio
+    git init
+
+Crear Archivos a nivel raiz
+    .gitignore  => sacar contenido de gitignore.io(https://www.toptal.com/developers/gitignore/)
+        (node,windows,linux,mac)
+    .editorconfig
+        Instalar extension en VSC editorConfig for VSC
+    .eslintrc.json
+    index.js
+
+
+Instalar Dependencias
+  npm i nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier -D
+
+  npm i express
+
+  npm i @faker-js/faker => para trabajar con datos falsos
+
+  npm i @hapi/boom   => manejo de errores con boom
+
+  npm i joi   => validación de datos con Joi (esquemas)
+
+  npm i cors  => Acceso de dominios a la api
+
+
+
+
+
+
+
+// DOCUMENTACIÓN DE CUALQUIER LIBRERÏA
+  npm docs <nombre de la libreria>
+//https://luchomorla.github.io/anotaciones/cursos/backend%20con%20node/API%20REST%20con%20express/apiRestExpress.html
+https://expressjs.com/en/guide/writing-middleware.html
