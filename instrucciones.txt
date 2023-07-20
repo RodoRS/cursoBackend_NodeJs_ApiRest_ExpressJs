@@ -12,7 +12,6 @@ Crear Archivos a nivel raiz
     .eslintrc.json
     index.js
 
-
 Instalar Dependencias
   npm i nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier -D
 
@@ -25,6 +24,11 @@ Instalar Dependencias
   npm i joi   => validación de datos con Joi (esquemas)
 
   npm i cors  => Acceso de dominios a la api
+
+
+  DEPLOYMENT
+    Heroku
+    Vercel
 
 
 

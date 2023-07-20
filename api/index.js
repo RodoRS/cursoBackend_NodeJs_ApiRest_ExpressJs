@@ -21,12 +21,12 @@ const options = {
 app.use(cors(options));
 
 //http://localhost:3001/
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.json("Hola server express");
 });
 
 //http://localhost:3001/nueva-ruta
-app.get('/nueva-ruta', (req, res) => {
+app.get('/api/nueva-ruta', (req, res) => {
   res.json("Hola nueva ruta");
 });
 
